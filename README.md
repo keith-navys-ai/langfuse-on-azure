@@ -109,6 +109,12 @@ Follow these steps to deploy Langfuse to Azure:
     azd env set AZURE_AUTH_TENANT_ID your-tenant-id
     ```
 
+    Finally, set the `AZURE_LOCATION` environment variable to your preferred location
+
+   ```shell
+   azd env set AZURE_LOCATION <location>
+   ```
+
 1. Run this command to provision all the resources:
 
     ```shell
